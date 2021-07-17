@@ -1,4 +1,4 @@
-const chunkArray = (arr, length) => {
+const chunkArray = (arr, len) => {
   const chunkedArr = [];
   arr.forEach(val => {
     const last = chunkedArr[chunkedArr.length -1];
